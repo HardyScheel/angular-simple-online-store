@@ -1,5 +1,4 @@
-# simple-online-store
-A simple online store with basic functionality based on Angular.
+A simple online store with basic functionality inspired by an [official Angular tutorial](https://angular.io/start{:target="_blank"}).
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 

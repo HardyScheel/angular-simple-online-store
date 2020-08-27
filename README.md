@@ -5,6 +5,7 @@ A simple online store with basic functionality inspired by an [official Angular 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 
 ## Table of contents
+- [First steps](#First-steps)
 - [Development server](#Development-server)
 - [Code scaffolding](#Code-scaffolding)
 - [Build](#Build)
@@ -13,6 +14,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - [Further help](#Further-help)
 
 ---
+## First steps
+Install the latest Node.js LTS version.
+Open a shell and run `npm install` to download and install all dependencies.
 
 ## Development server
 Run `npm start` for a dev server. It will then execute `ng serve --open` and opens the web browser to navigate to `http://localhost:4200/`.

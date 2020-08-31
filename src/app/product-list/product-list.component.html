@@ -17,5 +17,12 @@
     <!-- Add a share button. -->
     <button (click)="share()">
         Share
-      </button>
+    </button>
+
+    <!-- Add product alert component as a button, shown in product-alters.component.html. -->
+    <app-product-alerts
+        [product]="product"
+        (notify)="onNotify()">
+    </app-product-alerts>
+
 </div>

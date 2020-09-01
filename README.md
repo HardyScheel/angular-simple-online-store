@@ -14,9 +14,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - [Further help](#Further-help)
 
 ---
+
 ## First steps
+You want to run this app on your local machine? Then ...
+
 Install the latest Node.js LTS version.
-Open a shell and run `npm install` to download and install all dependencies.
+Open a shell and navigate to the project folder where you git-cloned or downloaded this source code. Now run `npm install -g @angular/cli` to install Angular. At last run `npm install` to download and install all dependencies. You now can start the app on your local development server which you already setup with these steps.
 
 ## Development server
 Run `npm start` for a dev server. It will then execute `ng serve --open` and opens the web browser to navigate to `http://localhost:4200/`.
@@ -30,6 +33,12 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+~~~
+ng build --prod
+~~~
+
+This production build which you can find in the `dist/` directory is ready for deployment. The files in the `dist/my-project-name` folder are static. This means you can host them on any web server capable of serving files (such as Node.js, Java, .NET), or any backend (such as Firebase, Google Cloud, or App Engine).
 
 ## Running unit tests
 

@@ -1,12 +1,12 @@
 # Simple online store with Angular
 
-A simple online store with basic functionality inspired by an [official Angular tutorial](https://angular.io/start){:target="_blank"}.
+A simple online store with basic functionality based on the [official Angular tutorial](https://angular.io/start).
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli){:target="_blank"} version 10.0.6.
+You can [view a Demo here](https://angular-simple-online-store.web.app).
 
 ## Table of contents
 - [First steps](#First-steps)
-- [Development server](#Development-server)
+- [Open app on a development server](#Open-app-on-a-development-server)
 - [Code scaffolding](#Code-scaffolding)
 - [Build](#Build)
 - [Running unit tests](#Running-unit-tests)
@@ -16,14 +16,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ---
 
 ## First steps
-You want to run this app on your local machine? Then ...
+You want run this app on your local machine? Then ...
 
-Install the latest Node.js LTS version.
-Open a shell and navigate to the project folder where you git-cloned or downloaded this source code. Now run `npm install -g @angular/cli` to install Angular. At last run `npm install` to download and install all dependencies. You now can start the app on your local development server which you already setup with these steps.
+- Install the latest Node.js LTS version.
+- Open a shell and navigate to the project folder where you git-cloned or downloaded this source code.
+- Now run `npm install -g @angular/cli` to install Angular.
+- At last run `npm install` to download and install all dependencies.
+- You now can start the app on your local development server which you already setup with these steps.
 
-## Development server
+## Open app on a development server
 Run `npm start` for a dev server. It will then execute `ng serve --open` and opens the web browser to navigate to `http://localhost:4200/`.
+
 OR:
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
@@ -42,12 +47,12 @@ This production build which you can find in the `dist/` directory is ready for d
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io){:target="_blank"}.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/){:target="_blank"}.
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md){:target="_blank"}.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

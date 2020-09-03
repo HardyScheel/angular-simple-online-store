@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "simple-online-store": {
+    "angular-simple-online-store": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/simple-online-store",
+            "outputPath": "dist/angular-simple-online-store",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "simple-online-store:build"
+            "browserTarget": "angular-simple-online-store:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "simple-online-store:build:production"
+              "browserTarget": "angular-simple-online-store:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "simple-online-store:build"
+            "browserTarget": "angular-simple-online-store:build"
           }
         },
         "test": {
@@ -110,15 +110,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "simple-online-store:serve"
+            "devServerTarget": "angular-simple-online-store:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "simple-online-store:serve:production"
+              "devServerTarget": "angular-simple-online-store:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "simple-online-store"
+  "defaultProject": "angular-simple-online-store"
 }
